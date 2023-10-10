@@ -1,0 +1,48 @@
+Sandbox_TH = {
+Sandbox_Nipswitch = "การปรับแต่งสวิทช์ไฟ",
+Sandbox_Nipswitch_Pagelength = "สมุดคู่มือ: จำนวนหน้าทั้งหมด",
+Sandbox_Nipswitch_Pagelength_tooltip = "<RGB:232,209,0> หน้า = ทันที \n12 หน้า = 1 นาที \n120 หน้า = 10 นาที (ความเร็ว Sandbox เริ่มต้น) \nคูณนาทีด้วยความเร็วการอ่าน Sandbox ของเซิร์ฟเวอร์ของคุณเพื่อหาจำนวนนาทีต่อ 12 หน้า</RGB>",
+Sandbox_Nipswitch_Booklevel = "สมุดคู่มือ: ระดับไฟฟ้าที่ต้องการอ่าน",
+Sandbox_Nipswitch_Booklevel_tooltip = "<RGB:232,209,0>ระดับไฟฟ้าที่ต้องการเพื่ออ่านหนังสือคู่มือ",
+Sandbox_Nipswitch_Bulbdisabled = "สวิทช์: ปิดการใช้งานการเอาหลอดไฟออก",
+Sandbox_Nipswitch_Bulbdisabled_tooltip = "<RGB:232,209,0>หากคุณเลือกช่องทำเครื่องหมายนี้ คุณจะปิดการใช้งานการเอาหลอดไฟออกจากสวิทช์ไฟ (ไม่สนใจค่าระดับหลอดไฟ)",
+Sandbox_Nipswitch_Bulblevel = "สวิทช์: ระดับที่ต้องการเพื่อเปลี่ยนหลอดไฟ",
+Sandbox_Nipswitch_Bulblevel_tooltip = "<RGB:232,209,0>ระดับไฟฟ้าที่ต้องการเพื่อเอาหลอดไฟออก/ติดใหม่จากสวิทช์ไฟในโลก",
+Sandbox_Nipswitch_Movedisabled = "สวิทช์: ปิดการใช้งานการหยิบย้าย/วาง",
+Sandbox_Nipswitch_Movedisabled_tooltip = "<RGB:232,209,0>หากคุณเลือกช่องเช็ค ผู้เล่นจะไม่สามารถหยิบ สวิตช์ไฟ ได้ (ไม่สนใจค่า Move Level)",
+Sandbox_Nipswitch_Movelevel = "สวิทช์: ระดับที่ต้องการเพื่อหยิบย้าย/วาง",
+Sandbox_Nipswitch_Movelevel_tooltip = "<RGB:232,209,0>ระดับที่ต้องการเพื่อวาง/หยิบย้ายสวิทช์ในโลก",
+Sandbox_Nipswitch_Batterydisabled = "สวิทช์: ปิดการใช้งานการเชื่อมต่อแบตเตอรี่",
+Sandbox_Nipswitch_Batterydisabled_tooltip = "<RGB:232,209,0>หากคุณเลือกช่องทำเครื่องหมายนี้ คุณจะไม่สามารถเชื่อมต่อแบตเตอรี่กับสวิทช์ไฟได้ (ไม่สนใจค่าระดับแบตเตอรี่)",
+Sandbox_Nipswitch_Batterylevel = "สวิทช์: ระดับที่ต้องการเพื่อเพิ่มเชื่อมต่อแบตเตอรี่",
+Sandbox_Nipswitch_Batterylevel_tooltip = "<RGB:232,209,0>ระดับที่ต้องการเพื่อเพิ่มแบตเตอรี่ ระดับ 5 เป็นระดับไฟฟ้าขั้นต่ำของ PZ ที่เป็นรหัสเข้ารหัส",
+Sandbox_Nipswitch_Craftspeed = "การคราฟต์: เวลาที่ใช้ในการคราฟต์",
+Sandbox_Nipswitch_Craftspeed_tooltip = "120 = 2 นาที \n300 = 5 นาที \n600 = 10 นาที",
+Sandbox_Nipswitch_Craftwire = "การคราฟต์: จำนวนสายไฟที่ต้องการ",
+Sandbox_Nipswitch_Craftwire_tooltip = "<RGB:232,209,0>จำนวนสายไฟที่ต้องการในการคราฟต์",
+Sandbox_Nipswitch_ElectronicsScrap = "การคราฟต์: จำนวนอิเล็กทรอนิกส์เศษที่ต้องการ",
+Sandbox_Nipswitch_ElectronicsScrap_tooltip = "<RGB:232,209,0>จำนวนอิเล็กทรอนิกส์เศษที่ต้องการในการคราฟต์",
+Sandbox_Nipswitch_Craftducttape = "การคราฟต์: จำนวนเทปกาวที่ต้องการ",
+Sandbox_Nipswitch_Craftducttape_tooltip = "<RGB:232,209,0>จำเป็นต้องใช้เทปกาวกี่หน่วยในการคราฟต์",
+Sandbox_Nipswitch_Craftscrews = "การคราฟต์: จำนวนสกรูที่ต้องการ",
+Sandbox_Nipswitch_Craftscrews_tooltip = "<RGB:232,209,0>จำนวนสกรูที่ต้องการในการคราฟต์",
+
+Sandbox_Bookchanceplace = "Skillbook: โอกาสในการหาในโลก",
+Sandbox_Bookchanceplace_option6 = "ปิดการใช้งาน"
+Sandbox_Bookchanceplace_option5 = "ทุกที่",
+Sandbox_Bookchanceplace_option4 = "พบบ่อย"
+Sandbox_Bookchanceplace_option3 = "พบไม่บ่อย"
+Sandbox_Bookchanceplace_option2 = "นาน"
+Sandbox_Bookchanceplace_option1 = "นานมาก"
+Sandbox_Bookchanceplace_tooltip = "<RGB:232,209,0>ปรากฏขึ้นใน: \nร้านหนังสือสถานี \nเคาน์เตอร์ห้องสมุด \nชั้นวางในห้องนั่งเล่น \nโต๊ะทำงานที่อยู่ในที่อยู่อาศัย \nโต๊ะข้างเตียง",
+
+Sandbox_Bookchancezombie = "Skillbook: โอกาสในการหากับซอมบี้",
+Sandbox_Bookchancezombie_option6 = "ปิดการใช้งาน"
+Sandbox_Bookchancezombie_option5 = "ทุกที่",
+Sandbox_Bookchancezombie_option4 = "พบบ่อย"
+Sandbox_Bookchancezombie_option3 = "พบไม่บ่อย"
+Sandbox_Bookchancezombie_option2 = "นาน"
+Sandbox_Bookchancezombie_option1 = "นานมาก"
+Sandbox_Bookchancezombie_tooltip = "<RGB:232,209,0>0ปรากฏขึ้นในซอมบี้ที่เจ็บป่วย",
+
+}

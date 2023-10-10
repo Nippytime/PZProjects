@@ -1,0 +1,4 @@
+Moveables_TH = {
+Left_Light_Switch = "สวิทช์ไฟด้านซ้าย",
+Right_Light_Switch = "สวิทช์ไฟด้านขวา",
+}

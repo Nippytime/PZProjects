@@ -1,0 +1,46 @@
+module Base
+{
+
+    recipe Right Light Switch {
+		keep Screwdriver,
+		keep Wrench,
+		keep Scissors,
+		Wire=10,
+		ElectronicsScrap=25,
+		DuctTape=4,
+		Screws=10,
+		Prop1:Screwdriver,
+		Prop2:lighting_indoor_01_0,
+		NoBrokenItems:true,
+		AllowOnlyOne:true,
+		OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
+		AnimNode:Disassemble,
+		Sound:VehicleHotwireStart,
+		Result:lighting_indoor_01_0,
+		CanBeDoneFromFloor:TRUE,
+		NeedToBeLearn:true,
+		Time:500.0,
+		Category:Electrical,
+	}
+	    recipe Left Light Switch {
+		keep Screwdriver,
+		keep Wrench,
+		keep Scissors,
+		Wire=10,
+		ElectronicsScrap=25,
+		DuctTape=4,
+		Screws=10,
+		Prop1:Screwdriver,
+		Prop2:lighting_indoor_01_0,
+		NoBrokenItems:true,
+		AllowOnlyOne:true,
+		OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
+		AnimNode:Disassemble,
+		Sound:VehicleHotwireStart,
+		Result:lighting_indoor_01_4,
+		CanBeDoneFromFloor:TRUE,
+		NeedToBeLearn:true,
+		Time:500.0,
+		Category:Electrical,
+	}
+}

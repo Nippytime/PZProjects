@@ -1,0 +1,49 @@
+Sandbox_EN = {
+	Sandbox_Nipswitch = "Lightswitch Overhaul",
+	Sandbox_Nipswitch_Pagelength = "Skillbook: Total pages",
+	Sandbox_Nipswitch_Pagelength_tooltip = "<RGB:232,209,0>1 page = instant  \n12 pages = 1 minute  \n120 pages = 10 minutes (Default Sandbox speed) \nMultiply minutes by your server Sandbox read speed to get your # of mins per 12 pages</RGB> ",
+	Sandbox_Nipswitch_Booklevel = "Skillbook: Electrical level to read",
+	Sandbox_Nipswitch_Booklevel_tooltip = "<RGB:232,209,0>Level of Electrical required to read Book",
+	Sandbox_Nipswitch_Bulbdisabled = "Switches: Disable Removing Bulb",
+	Sandbox_Nipswitch_Bulbdisabled_tooltip = "<RGB:232,209,0>If you check box, you will disable removing bulbs from Light Switches (Ignores Bulb Level Value)",
+	Sandbox_Nipswitch_Bulblevel = "Switches: Level to change bulb",
+	Sandbox_Nipswitch_Bulblevel_tooltip = "<RGB:232,209,0>Electrical Level required to Remove/Replace Lightbulb from switches in world",
+	Sandbox_Nipswitch_Movedisabled = "Switches: Disable pickup/place",
+	Sandbox_Nipswitch_Movedisabled_tooltip = "<RGB:232,209,0>If you check box, players can't pickup Light Switches (Ignores Move Level Value)",
+	Sandbox_Nipswitch_Movelevel = "Switches: Level to Take/Place",
+	Sandbox_Nipswitch_Movelevel_tooltip = "<RGB:232,209,0>Level required to place/pick Switches in world",
+	Sandbox_Nipswitch_Batterydisabled = "Switches: Disable battery connectors",
+	Sandbox_Nipswitch_Batterydisabled_tooltip = "<RGB:232,209,0>If you check box, you can't attach battery connectors to Light Switches (Ignores Battery Level Value)",
+	Sandbox_Nipswitch_Batterylevel = "Switches: Level to add Battery Connector",
+	Sandbox_Nipswitch_Batterylevel_tooltip = "<RGB:232,209,0>Level 5 is PZ Hardcoded Minimum Electrical level to add Battery",
+	Sandbox_Nipswitch_Craftspeed = "Crafting: Time to craft",
+	Sandbox_Nipswitch_Craftspeed_tooltip = "120 = 2 min \n300 = 5 min \n600 = 10 min",
+	Sandbox_Nipswitch_Craftwire = "Crafting: Wire needed",
+	Sandbox_Nipswitch_Craftwire_tooltip = "<RGB:232,209,0>How many Wire required to craft",
+	Sandbox_Nipswitch_ElectronicsScrap = "Crafting: Scrap Electronics needed",
+	Sandbox_Nipswitch_ElectronicsScrap_tooltip = "<RGB:232,209,0>How many Scrap Electronics required to craft",
+	Sandbox_Nipswitch_Craftducttape = "Crafting: Duct Tape needed",
+	Sandbox_Nipswitch_Craftducttape_tooltip = "<RGB:232,209,0>How many units of Duct Tape required to craft",
+	Sandbox_Nipswitch_Craftscrews = "Crafting: Screws needed",
+	Sandbox_Nipswitch_Craftscrews_tooltip = "<RGB:232,209,0>How Many Screws required to craft",
+
+    Sandbox_Bookchanceplace = "Skillbook: Chance to find in world",
+	Sandbox_Bookchanceplace_option6 = "Disabled"
+	Sandbox_Bookchanceplace_option5 = "EVERYWHERE",
+	Sandbox_Bookchanceplace_option4 = "Common"
+	Sandbox_Bookchanceplace_option3 = "Uncommon"
+	Sandbox_Bookchanceplace_option2 = "Rare"
+	Sandbox_Bookchanceplace_option1 = "Very Rare"
+    Sandbox_Bookchanceplace_tooltip = "<RGB:232,209,0>Spawns in: \nBookstore Stationary \nLibrary counter \nLiving Room shelf \nResidential office desk \nBedroom side table ",
+
+	Sandbox_Bookchancezombie = "Skillbook: Chance to find on zombie",
+	Sandbox_Bookchancezombie_option6 = "Disabled"
+	Sandbox_Bookchancezombie_option5 = "EVERYWHERE",
+	Sandbox_Bookchancezombie_option4 = "Common"
+	Sandbox_Bookchancezombie_option3 = "Uncommon"
+	Sandbox_Bookchancezombie_option2 = "Rare"
+	Sandbox_Bookchancezombie_option1 = "Very Rare"
+	Sandbox_Bookchancezombie_tooltip = "<RGB:232,209,0>Spawns in downed Zombie bodies."
+
+
+}

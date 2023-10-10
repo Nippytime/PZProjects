@@ -1,0 +1,5 @@
+UI_EN = {
+	Lightswitches_fordummies = "Light Switch Tinkering for Not Dummies",
+	Base.Lightswitches_fordummies = "Light Switch Tinkering for Not Dummies",
+	
+}

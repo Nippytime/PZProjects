@@ -1,0 +1,16 @@
+module Base {
+
+	item Lightswitches_fordummies
+    {
+        DisplayCategory 			= SkillBook,
+		NumberOfPages 				= 500,
+        Weight						= 1.0,
+        Type						= Literature,
+        DisplayName					= Light Switch Tinkering for Not Dummies,
+        Icon						= Lightswitches_fordummies,
+        TeachedRecipes  			= Left Light Switch; Right Light Switch,
+        ReplaceOnUse    			= Lightswitches_fordummies,
+        StaticModel 				= Lightswitches_fordummies,
+		WorldStaticModel 			= Lightswitches_fordummies_Ground,
+    }
+}

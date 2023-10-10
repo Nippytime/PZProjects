@@ -1,0 +1,188 @@
+VERSION = 1,
+
+option Nipswitch = 
+{
+	type = page, 
+	page = Nipswitch, 
+	translation = Nipswitch,
+}
+
+option Nipswitch.Pagelength = 
+{
+	type = integer, 
+	min = 1,
+	max = 3000,
+	default = 500,
+	page = Nipswitch, 
+	translation = Nipswitch_Pagelength,
+}
+
+option Nipswitch.Booklevel = 
+{
+	type = integer,
+	min = 0,
+	max = 10,
+	default = 6,
+	page = Nipswitch,
+	translation = Nipswitch_Booklevel,
+}
+
+option Nipswitch.Bookchanceplace = 
+{
+	type = enum,
+	numValues = 6,
+	default = 2,
+	page = Nipswitch, 
+	translation = Bookchanceplace,
+	valueTranslation = Bookchanceplace_enums
+}
+
+option Nipswitch.Bookchancezombie = 
+{
+	type = enum,
+	numValues = 6,
+	default = 1,
+	page = Nipswitch, 
+	translation = Bookchancezombie,
+	valueTranslation = Bookchancezombie_enums
+}
+
+/*option Nipswitch.Bookchanceplace = 
+{
+	type = integer, 
+	min = 1,
+	max = 10,
+	default = 1,
+	page = Nipswitch, 
+	translation = Nipswitch_Bookchanceplace,
+}
+
+option Nipswitch.Bookchancezombie = 
+{
+	type = integer, 
+	min = 1,
+	max = 10,
+	default = 1,
+	page = Nipswitch, 
+	translation = Nipswitch_Bookchancezombie,
+}
+
+option Nipswitch.Booknoplace = 
+{
+	type = boolean, 
+	default = false,
+	page = Nipswitch, 
+	translation = Nipswitch_Booknoplace,
+}
+
+option Nipswitch.Booknozombie = 
+{
+	type = boolean, 
+	default = false,
+	page = Nipswitch, 
+	translation = Nipswitch_Booknozombie,
+}*/
+
+option Nipswitch.Bulblevel =
+{
+	type = integer,
+	min = 0,
+	max = 10,
+	default = 4,
+	page = Nipswitch,
+	translation = Nipswitch_Bulblevel,
+}
+
+option Nipswitch.Movelevel =
+{
+	type = integer,
+	min = 1,
+	max = 10,
+	default = 6,
+	page = Nipswitch,
+	translation = Nipswitch_Movelevel,
+}
+
+option Nipswitch.Batterylevel =
+{
+	type = integer,
+	min = 5,
+	max = 10,
+	default = 8,
+	page = Nipswitch,
+	translation = Nipswitch_Batterylevel,
+}
+
+/*option Nipswitch.Craftspeed = 
+{
+	type = integer, 
+	min = 1,
+	max = 600,
+	default = 120,
+	page = Nipswitch, 
+	translation = Nipswitch_Craftspeed,
+}*/
+
+option Nipswitch.Bulbdisabled =
+{
+	type = boolean,
+	default = false,
+	page = Nipswitch,
+	translation = Nipswitch_Bulbdisabled,
+}
+
+option Nipswitch.Movedisabled =
+{
+	type = boolean,
+	default = false,
+	page = Nipswitch,
+	translation = Nipswitch_Movedisabled,
+}
+
+option Nipswitch.Batterydisabled =
+{
+	type = boolean,
+	default = false,
+	page = Nipswitch,
+	translation = Nipswitch_Batterydisabled,
+}
+
+option Nipswitch.Craftwire = 
+{
+	type = integer, 
+	min = 1,
+	max = 1000,
+	default = 10,
+	page = Nipswitch, 
+	translation = Nipswitch_Craftwire,
+}
+
+option Nipswitch.CraftElectronicsScrap =
+{
+	type = integer,
+	min = 1,
+	max = 1000,
+	default = 50,
+	page = Nipswitch,
+	translation = Nipswitch_ElectronicsScrap,
+}
+
+option Nipswitch.Craftducttape =
+{
+	type = integer,
+	min = 1,
+	max = 1000,
+	default = 4,
+	page = Nipswitch,
+	translation = Nipswitch_Craftducttape,
+}
+
+option Nipswitch.Craftscrews =
+{
+	type = integer,
+	min = 1,
+	max = 1000,
+	default = 10,
+	page = Nipswitch,
+	translation = Nipswitch_Craftscrews,
+}

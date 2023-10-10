@@ -1,0 +1,5 @@
+name=Light-Switch Overhaul
+id=LightSwitchOverhaul
+description=Complete rework of Light-Switches and how they work.
+poster=poster.png
+tiledef=Lightswitches 8676
